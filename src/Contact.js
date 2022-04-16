@@ -11,8 +11,10 @@ const Contact = () => {
                 blanditiis illum ipsum praesentium soluta eius corporis id incidunt cupiditate sint labore aperiam?
                 Illum, eius.</p>
             <h2>This is page has nested route componenet</h2>
+
+            {/* this is nested route type /nest to checkout nested route */}
             <Routes>
-                <Route path='/conatact/nest' element={<Nestedroute/>}/>
+                <Route path='nest' element={<Nestedroute/>}/>
             </Routes>
         </div>
     );
